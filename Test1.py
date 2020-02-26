@@ -43,4 +43,4 @@ for emp, row in data.iterrows():
 position = ["1st shift", "2nd Shift", "3rd Shift"]
 schedule.index = position
 print(schedule)
-schedule.to_csv(r'C:\Users\Akintoye Asaolu\OneDrive - Baylor University\Spring Semester\Advanced Python\Test\schedule.csv', index=False, header=True)
+schedule.to_csv(r'C:\Users\Akintoye Asaolu\OneDrive - Baylor University\Spring Semester\Advanced Python\Test\schedule.csv', index=True, header=True)
